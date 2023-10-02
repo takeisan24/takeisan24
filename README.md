@@ -4,7 +4,7 @@
 - 🌱 Age: 19
 - 👯 D.O.B: 12/12/2004
 - 💬 Ask me about ...
-- 📫 How to reach me: [Facebook]{https://www.facebook.com/t.ahn.official204}/[Instagram]{https://www.instagram.com/t_ahnofficial204/}
+- 📫 How to reach me: [Facebook](https://www.facebook.com/t.ahn.official204)/[Instagram](https://www.instagram.com/t_ahnofficial204/)
 - 😄 Pronouns: he/him/his
 
 
