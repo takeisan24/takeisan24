@@ -4,7 +4,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
 </p>
-<a href="http://www.github.com/takeisan24"><img src="https://github-readme-stats.vercel.app/api?username=takeisan24&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="takeisan24's GitHub stats" /></a>
+
 Mình là một Lập trình viên Front-end đam mê tạo ra các ứng dụng web đẹp mắt và thân thiện với người dùng.
 ---
 
