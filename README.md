@@ -1,9 +1,9 @@
-### 👋 Chào bạn, mình là Takei/Yuuri!
+### <p align="center">
+  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
+</p> Chào bạn, mình là Takei/Yuuri!
 
 ![](https://komarev.com/ghpvc/?username=takeisan24&color=ff69b4) 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
-</p>
+
 
 Mình là một Lập trình viên Front-end đam mê tạo ra các ứng dụng web đẹp mắt và thân thiện với người dùng.
 ---
