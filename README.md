@@ -1,7 +1,4 @@
-### <p align="center">
-  <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
-</p> Chào bạn, mình là Takei/Yuuri!
-
+### <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> Chào bạn, mình là Takei/Yuuri!
 ![](https://komarev.com/ghpvc/?username=takeisan24&color=ff69b4) 
 
 
