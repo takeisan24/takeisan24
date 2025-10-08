@@ -1,6 +1,5 @@
 ### 👋 Chào bạn, mình là Takei/Yuuri!
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1)](https://git.io/streak-stats)
 <p align="center">
   <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">
 </p>
@@ -40,6 +39,7 @@ Mình là một Lập trình viên Front-end đam mê tạo ra các ứng dụng
 ### 📈 Thống kê GitHub của tôi
 
 <p align="center">
+  [![GitHub Streak](https://streak-stats.demolab.com?user=takeisan24&theme=dracula)](https://git.io/streak-stats)
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=takeisan24&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=takeisan24&layout=compact&langs_count=7&theme=dracula"/>
 </p>
