@@ -12,11 +12,9 @@ Mình là một Lập trình viên Front-end đam mê tạo ra các ứng dụng
 - 🔭 Hiện tại mình đang làm việc tại **Coming soon**.
 - 🌱 Mình đang học thêm về **Next.js**.
 - 👯 Mình đang tìm kiếm cơ hội hợp tác trong các dự án mã nguồn mở về **bất kì thứ gì**.
-- 🤔 Mình đang cần giúp đỡ với ****.
-- 💬 Hãy hỏi mình về **[Chủ đề bạn am hiểu, ví dụ: React, CSS, ...]**.
-- 📫 Cách liên hệ với mình: **[Email của bạn]**.
-- 😄 Biệt danh: **[Biệt danh của bạn]**.
-- ⚡ Điều thú vị: **[Một sự thật thú vị về bạn]**.
+- 🤔 Mình đang cần giúp đỡ với **việc học các ngôn ngữ mới**.
+- 💬 Hãy hỏi mình về **Front-end, thiết kế giao diện UI/UX**.
+- 📫 Cách liên hệ với mình: **vutanh507@gmail.com**.
 
 ---
 
