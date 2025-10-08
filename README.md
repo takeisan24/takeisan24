@@ -60,8 +60,8 @@ Mình là một Lập trình viên Front-end đam mê tạo ra các ứng dụng
 ### 🔗 Kết nối với mình
 
 <p align="left">
-<a href="[https://fb.com/[Tên-facebook-của-bạn]](https://www.facebook.com/t.ahn.official204)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="[Tên-facebook-của-bạn]" height="30" width="40" /></a>
-<a href="[https://instagram.com/[Tên-instagram-của-bạn]](https://www.instagram.com/t_ahnofficial204/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="[Tên-instagram-của-bạn]" height="30" width="40" /></a>
+<a href="https://www.facebook.com/t.ahn.official204" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="[Tên-facebook-của-bạn]" height="30" width="40" /></a>
+<a href="https://www.instagram.com/t_ahnofficial204" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="[Tên-instagram-của-bạn]" height="30" width="40" /></a>
 </p>
 
 ---
