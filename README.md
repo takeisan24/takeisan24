@@ -8,14 +8,13 @@
 </p>
 
 <p align="center">
-  <em>Frontend Developer at Finful | IT Student in Hanoi — building modern web experiences with TypeScript & Next.js.</em>
+  <em>IT Student in Hanoi — building modern web experiences with TypeScript & Next.js.</em>
 </p>
 
 ---
 
 ### About Me
 
-- Working as **Frontend Developer** at **Finful**
 - Studying **Information Technology** in Hanoi
 - Building web apps with **TypeScript**, **React**, and **Next.js**
 - Exploring **AI-powered tools** (Google Gemini) and content automation
