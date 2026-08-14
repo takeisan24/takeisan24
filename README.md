@@ -26,17 +26,6 @@
 <tr>
 <td width="50%" valign="top">
 
-#### [CreatorHub][ch] &nbsp;·&nbsp; [live ↗][ch-live]
-
-Content planning platform for creators, powered by Generative AI. Idea generation, drag-and-drop publishing calendar, AI rewrite assistant, media library, credit system and VietQR payments — across 7 social platforms, fully bilingual (vi/en).
-
-**61 route handlers.** My graduation thesis at UTC.
-
-`Next.js App Router` `TypeScript` `Google Gemini` `Supabase` `next-intl`
-
-</td>
-<td width="50%" valign="top">
-
 #### [Waguri][wg] &nbsp;·&nbsp; [live ↗][wg-live]
 
 A Vietnamese-localized Discord economy / RPG / community bot. Street jobs to tycoon progression, guilds, in-voice Loto & Bingo, multiplayer minigames, marriage, trading — plus an AI companion persona.
@@ -46,15 +35,26 @@ A Vietnamese-localized Discord economy / RPG / community bot. Street jobs to tyc
 `discord.js v14` `Node.js` `Supabase / Postgres` `Gemini AI` `Next.js dashboard`
 
 </td>
+<td width="50%" valign="top">
+
+#### [CreatorHub][ch] &nbsp;·&nbsp; [live ↗][ch-live]
+
+Content planning platform for creators, powered by Generative AI. Idea generation, drag-and-drop publishing calendar, AI rewrite assistant, media library, credit system and VietQR payments — across 7 social platforms, fully bilingual (vi/en).
+
+**61 route handlers.** My graduation thesis at UTC.
+
+`Next.js App Router` `TypeScript` `Google Gemini` `Supabase` `next-intl`
+
+</td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
 #### [Word Chain Game][wc]
 
-Vietnamese *nối từ* word-chain game — real-time turns and dictionary validation.
+Vietnamese *nối từ* word-chain game. Full-stack: Next.js client against a separate Express + MongoDB API with a seeded dictionary.
 
-`Next.js` `TypeScript`
+`Next.js` `TypeScript` `Express` `MongoDB`
 
 </td>
 <td width="50%" valign="top">
