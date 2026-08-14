@@ -167,4 +167,7 @@ A Vencord / BetterDiscord theme I designed and maintain.
 
 ---
 
-<p align="center"><em>"Code is like humor. When you have to explain it, it's bad." — Cory House</em></p>
+<p align="center">
+  <sub>Thanks for scrolling this far — find every way to reach me at
+  <a href="https://guns.lol/takeisan04">guns.lol/takeisan04</a></sub>
+</p>
