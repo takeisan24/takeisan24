@@ -1,7 +1,7 @@
 <h1 align="center">Hey there! I'm Tuan Anh <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
 
 <p align="center">
-  <em>IT student in Hanoi<br/>
+  <em>Frontend / Fullstack Developer &middot; IT student in Hanoi<br/>
   I build AI-powered web products with TypeScript, Next.js and Supabase.</em>
 </p>
 
@@ -80,6 +80,7 @@ A Vencord / BetterDiscord theme I designed and maintain.
 
 ### About Me
 
+- **Frontend / Fullstack Developer** — shipping production Next.js applications end to end
 - Studying **Information Technology** at University of Transport and Communications, Hanoi
 - Most at home in **TypeScript** — it's ~68% of everything I've written
 - Deep into **Generative AI** product work: Gemini pipelines, credit metering, prompt orchestration
