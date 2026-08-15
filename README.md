@@ -6,6 +6,15 @@
 </p>
 
 <p align="center">
+  <a href="https://vutuananh.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-vutuananh.vercel.app-0EA5E9?style=flat-square&labelColor=1a1a1a" alt="Portfolio">
+  </a>
+  <a href="https://www.linkedin.com/in/takeisan24/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1a1a" alt="LinkedIn">
+  </a>
+  <a href="mailto:vutanh507@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a1a" alt="Email">
+  </a>
   <a href="https://guns.lol/takeisan04">
     <img src="https://img.shields.io/badge/guns.lol-takeisan04-8B5CF6?style=flat-square&labelColor=1a1a1a" alt="guns.lol/takeisan04">
   </a>
@@ -24,13 +33,24 @@
 
 <table>
 <tr>
+<td colspan="2">
+
+#### [Portfolio &amp; CV][pf] &nbsp;·&nbsp; [live ↗][pf-live]
+
+Start here — my personal site and printable CV in one. Every project below, written up properly. All content comes from a single typed source file that drives both the website and a server-rendered PDF export.
+
+`Next.js 16` `TypeScript` `Tailwind v4` `Framer Motion` `Puppeteer`
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### [Waguri][wg] &nbsp;·&nbsp; [live ↗][wg-live]
 
 A Vietnamese-localized Discord economy / RPG / community bot. Street jobs to tycoon progression, guilds, in-voice Loto & Bingo, multiplayer minigames, marriage, trading — plus an AI companion persona.
 
-**79 commands**, hardcore balance with multi-layer inflation sinks.
+**79 commands.** Live with **7 servers and 1,428 members** — hardcore balance held together by multi-layer inflation sinks.
 
 `discord.js v14` `Node.js` `Supabase / Postgres` `Gemini AI` `Next.js dashboard`
 
@@ -69,6 +89,8 @@ A Vencord / BetterDiscord theme I designed and maintain.
 </tr>
 </table>
 
+[pf]: https://github.com/takeisan24/cv-generator
+[pf-live]: https://vutuananh.vercel.app
 [ch]: https://github.com/takeisan24/graduation-project
 [ch-live]: https://graduation-project-alpha-dun.vercel.app
 [wg]: https://github.com/takeisan24/waguri-bot
