@@ -6,6 +6,12 @@
 </p>
 
 <p align="center">
+  <a href="mailto:vutanh507@gmail.com">
+    <img src="https://img.shields.io/badge/Open%20to%20work-onsite%20or%20remote-22C55E?style=for-the-badge&labelColor=1a1a1a" alt="Open to work — onsite or remote">
+  </a>
+</p>
+
+<p align="center">
   <a href="https://vutuananh.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-vutuananh.vercel.app-0EA5E9?style=flat-square&labelColor=1a1a1a" alt="Portfolio">
   </a>
@@ -103,8 +109,8 @@ A Vencord / BetterDiscord theme I designed and maintain.
 ### About Me
 
 - **Frontend / Fullstack Developer** — shipping production Next.js applications end to end
-- Studying **Information Technology** at University of Transport and Communications, Hanoi
-- Most at home in **TypeScript** — it's ~68% of everything I've written
+- Graduating **2026** in Information Technology at University of Transport and Communications, Hanoi
+- Most at home in **TypeScript** — half my public code, about two thirds once private work is counted
 - Deep into **Generative AI** product work: Gemini pipelines, credit metering, prompt orchestration
 - I also write **PL/pgSQL** — Supabase RPCs and Postgres functions do real work in my projects
 - For fun: **Discord bots & themes**
