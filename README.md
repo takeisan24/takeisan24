@@ -72,7 +72,7 @@ Content planning platform for creators, powered by Generative AI. Idea generatio
 
 #### [Word Chain Game][wc]
 
-Vietnamese *nối từ* word-chain game. Full-stack: Next.js client against a separate Express + MongoDB API with a seeded dictionary.
+Vietnamese *nối từ* word-chain game against a bot, in Vietnamese and English. A "checkmate" solver walks every remaining move to declare a win when the opponent is cornered, behind a full CRUD dictionary API.
 
 `Next.js` `TypeScript` `Express` `MongoDB`
 
