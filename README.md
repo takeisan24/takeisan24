@@ -54,7 +54,7 @@ Start here — my personal site and printable CV in one. Every project below, wr
 
 #### [Waguri][wg] &nbsp;·&nbsp; [live ↗][wg-live]
 
-A Vietnamese-localized Discord economy / RPG / community bot. Street jobs to tycoon progression, guilds, in-voice Loto & Bingo, multiplayer minigames, marriage, trading — plus an AI companion persona.
+A Vietnamese-localized Discord economy / RPG / community bot. Street jobs to tycoon progression, a farm and a bakery to run, in-voice Loto, Werewolf and other multiplayer minigames, dating, trading — plus an AI companion persona.
 
 **72 slash commands, 572 automated tests** — every money and inventory change runs as an atomic Postgres RPC, and multi-layer sinks keep the economy from inflating. Live right now:
 
