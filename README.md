@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="mailto:vutanh507@gmail.com">
-    <img src="https://img.shields.io/badge/Open%20to%20work-onsite%20or%20remote-22C55E?style=for-the-badge&labelColor=1a1a1a" alt="Open to work — onsite or remote">
+  <a href="https://vutuananh.vercel.app/cv">
+    <img src="https://img.shields.io/badge/Open%20to%20work-onsite%20or%20remote-22C55E?style=for-the-badge&labelColor=1a1a1a" alt="Open to work — onsite or remote (view CV)">
   </a>
 </p>
 
@@ -21,9 +21,6 @@
   <a href="mailto:vutanh507@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a1a" alt="Email">
   </a>
-  <a href="https://guns.lol/takeisan04">
-    <img src="https://img.shields.io/badge/guns.lol-takeisan04-8B5CF6?style=flat-square&labelColor=1a1a1a" alt="guns.lol/takeisan04">
-  </a>
   <a href="https://www.facebook.com/t.ahn.official204">
     <img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white&labelColor=1a1a1a" alt="Facebook">
   </a>
@@ -36,8 +33,6 @@
 ---
 
 ### Featured Work
-
-**Start here →** [Portfolio &amp; CV][pf-live] — every project below written up in full, plus a printable CV, all from one typed source file. <sub>([source][pf])</sub>
 
 <table>
 <tr>
@@ -84,13 +79,13 @@ Editorial-vintage first-date invitations — the other person picks time, place 
 </td>
 <td width="50%" valign="top">
 
-#### [Word Chain Game][wc]
+#### [Sakurajima Mai Theme][sk] &nbsp;·&nbsp; [install ↗][sk-install]
 
-Vietnamese *nối từ* against a bot, in Vietnamese and English, on top of a full CRUD dictionary API.
+Calm lavender Discord theme for Vencord and BetterDiscord, built on [NotAnotherAnimeTheme][naat] by puckzxz.
 
-**"Checkmate" solver** · walks every remaining move to call the win early
+**v3.9 · WCAG AA contrast** · themed through Discord's own design tokens, honors Reduced Motion
 
-`Next.js` `TypeScript` `Express` `MongoDB`
+`CSS` `Vencord` `BetterDiscord`
 
 </td>
 </tr>
@@ -98,11 +93,10 @@ Vietnamese *nối từ* against a bot, in Vietnamese and English, on top of a fu
 
 **More**
 
+- [Word Chain Game][wc] — Vietnamese *nối từ* against a bot, with a "checkmate" solver that calls the win early, over a CRUD dictionary API. `Next.js` `Express` `MongoDB`
 - [React Interview Cheatsheet][ri] — six React internals (stale closures, event loop, Fiber, batching, `React.memo`…), each with a clickable demo, a quiz and broken code to fix. `React 19` `Vite`
-- [Sakurajima Mai Theme][sk] — lavender Discord theme for Vencord / BetterDiscord, built on [NotAnotherAnimeTheme][naat]; honors Reduced Motion, key text at WCAG AA. `CSS`
+- [Portfolio &amp; CV][pf] — source of my portfolio: one typed file drives both the website and a server-rendered PDF CV. `Next.js 16` `Puppeteer`
 
-[pf]: https://github.com/takeisan24/cv-generator
-[pf-live]: https://vutuananh.vercel.app
 [wg]: https://github.com/takeisan24/waguri-bot
 [wg-live]: https://waguri-bot.vercel.app
 [ch]: https://github.com/takeisan24/graduation-project
@@ -110,10 +104,12 @@ Vietnamese *nối từ* against a bot, in Vietnamese and English, on top of a fu
 [ch-live]: https://graduation-project-alpha-dun.vercel.app
 [ci]: https://github.com/takeisan24/invitation-studio
 [ci-live]: https://cuochennho.vercel.app
+[sk]: https://github.com/takeisan24/Sakurajima-Mai-Discord-Theme
+[sk-install]: https://github.com/takeisan24/Sakurajima-Mai-Discord-Theme#installation
+[naat]: https://github.com/puckzxz/NotAnotherAnimeTheme
 [wc]: https://github.com/takeisan24/word-chain-game
 [ri]: https://github.com/takeisan24/react-interview-cheatsheet
-[sk]: https://github.com/takeisan24/Sakurajima-Mai-Discord-Theme
-[naat]: https://github.com/puckzxz/NotAnotherAnimeTheme
+[pf]: https://github.com/takeisan24/cv-generator
 
 ---
 
@@ -129,12 +125,11 @@ Top contributor with 72 pull requests, 71% of the project's total. Built the One
 
 ### About Me
 
-- **Frontend / Fullstack Developer** — shipping production Next.js and React Native apps end to end
 - Graduating **2026** in Information Technology at University of Transport and Communications, Hanoi
 - Most at home in **TypeScript** — nearly half my public code, about 60% once private work is counted
 - Deep into **Generative AI** product work: Gemini pipelines, credit metering, prompt orchestration
 - I also write **PL/pgSQL** — Supabase RPCs and Postgres functions do real work in my projects
-- For fun: **Discord bots & themes**
+- Outside code: **guitar** and **anime**
 
 ---
 
@@ -191,20 +186,12 @@ Top contributor with 72 pull requests, 71% of the project's total. Built the One
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=takeisan24&theme=tokyonight&hide_border=true">
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=takeisan24&theme=default&hide_border=true">
-    <img src="https://streak-stats.demolab.com?user=takeisan24&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=takeisan24&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="180" />
   </picture>
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=takeisan24&theme=tokyonight">
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=takeisan24&theme=default">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=takeisan24&theme=tokyonight" alt="Repos per Language" height="200" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=takeisan24&theme=tokyonight">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=takeisan24&theme=default">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=takeisan24&theme=tokyonight" alt="Most Commit Language" height="200" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=takeisan24&theme=tokyonight" alt="Repos per Language" height="180" />
   </picture>
 </p>
 
