@@ -1,7 +1,7 @@
 <h1 align="center">Hey there! I'm Tuan Anh <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
 
 <p align="center">
-  <em>Frontend / Fullstack Developer &middot; IT student in Hanoi<br/>
+  <em>Frontend / Fullstack Developer &middot; IT graduate, Hanoi<br/>
   I build AI-powered web products with TypeScript, Next.js and Supabase.</em>
 </p>
 
@@ -113,7 +113,7 @@ Top contributor with 72 pull requests, 71% of the project's total. Built the One
 
 ### About Me
 
-- Graduating **2026** in Information Technology at University of Transport and Communications, Hanoi
+- Graduated in **2026** in Information Technology from the University of Transport and Communications, Hanoi
 - Most at home in **TypeScript** — nearly half my public code, about 60% once private work is counted
 - Deep into **Generative AI** product work: Gemini pipelines, credit metering, prompt orchestration
 - I also write **PL/pgSQL** — Supabase RPCs and Postgres functions do real work in my projects
