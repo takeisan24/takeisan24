@@ -37,45 +37,36 @@
 
 ### Featured Work
 
+**Start here →** [Portfolio &amp; CV][pf-live] — every project below written up in full, plus a printable CV, all from one typed source file. <sub>([source][pf])</sub>
+
 <table>
-<tr>
-<td colspan="2">
-
-#### [Portfolio &amp; CV][pf] &nbsp;·&nbsp; [live ↗][pf-live]
-
-Start here — my personal site and printable CV in one. Every project below, written up properly. All content comes from a single typed source file that drives both the website and a server-rendered PDF export.
-
-`Next.js 16` `TypeScript` `Tailwind v4` `Framer Motion` `Puppeteer`
-
-</td>
-</tr>
 <tr>
 <td width="50%" valign="top">
 
 #### [Waguri][wg] &nbsp;·&nbsp; [live ↗][wg-live]
 
-A Vietnamese-localized Discord economy / RPG / community bot. Street jobs to tycoon progression, a farm and a bakery to run, in-voice Loto, Werewolf and other multiplayer minigames, dating, trading — plus an AI companion persona.
+Vietnamese Discord economy / RPG bot with an AI companion — street jobs, a farm and a bakery, in-voice Loto and Werewolf.
 
-**72 slash commands, 572 automated tests** — every money and inventory change runs as an atomic Postgres RPC, and multi-layer sinks keep the economy from inflating. Live right now:
+**72 commands · 572 tests** · every money move is an atomic Postgres RPC
 
 ![Servers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwaguri-bot.vercel.app%2Fapi%2Fbot%2Fstats&query=%24.servers&label=servers&style=flat-square&color=FFB7C5&labelColor=1a1a1a&cacheSeconds=1800)
 ![Members](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwaguri-bot.vercel.app%2Fapi%2Fbot%2Fstats&query=%24.users&label=members&style=flat-square&color=FFB7C5&labelColor=1a1a1a&cacheSeconds=1800)
 ![Players](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwaguri-bot.vercel.app%2Fapi%2Fbot%2Fstats&query=%24.players&label=players&style=flat-square&color=FFB7C5&labelColor=1a1a1a&cacheSeconds=1800)
 
-`discord.js v14` `Node.js` `Supabase / Postgres` `Gemini AI` `Next.js dashboard`
+`discord.js v14` `Supabase` `Gemini AI` `Next.js`
 
 </td>
 <td width="50%" valign="top">
 
-#### [CreatorHub][ch] &nbsp;·&nbsp; [live ↗][ch-live]
+#### [CreatorHub][ch] &nbsp;·&nbsp; [case study ↗][ch-cs]
 
-Content planning platform for creators, powered by Generative AI. Idea generation, drag-and-drop publishing calendar, AI rewrite assistant, media library, credit system and VietQR payments — across 7 social platforms, fully bilingual (vi/en).
+AI content planner for creators — idea generation, a drag-and-drop publishing calendar and VietQR credits across 7 platforms, in Vietnamese and English.
 
-**61 route handlers.** My graduation thesis at UTC, graded **8.8/10**.
+**Graduation thesis, graded 8.8/10** · 61 route handlers
 
-> **Demo note:** the live site's backend is paused for now, so sign-in and AI features are offline. The code and the [case study in my portfolio](https://vutuananh.vercel.app/projects/creatorhub) are the best way to see it.
+<sub>Demo note: the [live site][ch-live]'s backend is paused for now, so sign-in and AI features are offline.</sub>
 
-`Next.js App Router` `TypeScript` `Google Gemini` `Supabase` `next-intl`
+`Next.js` `TypeScript` `Gemini AI` `Supabase`
 
 </td>
 </tr>
@@ -84,51 +75,39 @@ Content planning platform for creators, powered by Generative AI. Idea generatio
 
 #### [Cuộc Hẹn Nhỏ][ci] &nbsp;·&nbsp; [live ↗][ci-live]
 
-An editorial-vintage studio for first-date invitations. Write a note, pick a palette, share a link or QR; the other person chooses time, place and drinks, then replies in one tap over Zalo or iMessage with a boarding-pass ticket. No login needed.
+Editorial-vintage first-date invitations — the other person picks time, place and drinks, then replies in one tap over Zalo or iMessage.
 
-**v1.0 shipped October 2026.** Since then: Apple / Google calendar export, a 9:16 story card and a vinyl-player soundtrack.
+**No login · v1.0 October 2026** · calendar export, 9:16 story card
 
-`Next.js 16` `React 19` `Tailwind v4` `Supabase` `Web Audio API`
+`Next.js 16` `React 19` `Supabase` `Web Audio API`
 
 </td>
 <td width="50%" valign="top">
 
 #### [Word Chain Game][wc]
 
-Vietnamese *nối từ* word-chain game against a bot, in Vietnamese and English. A "checkmate" solver walks every remaining move to declare a win when the opponent is cornered, behind a full CRUD dictionary API.
+Vietnamese *nối từ* against a bot, in Vietnamese and English, on top of a full CRUD dictionary API.
+
+**"Checkmate" solver** · walks every remaining move to call the win early
 
 `Next.js` `TypeScript` `Express` `MongoDB`
 
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [React Interview Cheatsheet][ri]
-
-Six React internals that interviewers love to dig into — stale closures, the event loop, TDZ, Fiber reconciliation, batching and `React.memo`. Each one comes with a clickable demo, interview traps, a quiz and a deliberately broken exercise to fix. Written in Vietnamese.
-
-`React 19` `TypeScript` `Vite`
-
-</td>
-<td width="50%" valign="top">
-
-#### [Sakurajima Mai Theme][sk]
-
-A calm lavender Discord theme for Vencord and BetterDiscord, built on [NotAnotherAnimeTheme][naat] by puckzxz. Themed through Discord's own design tokens so it survives client updates; honors Reduced Motion and High Contrast, with key text at WCAG AA contrast.
-
-`CSS`
-
-</td>
-</tr>
 </table>
+
+**More**
+
+- [React Interview Cheatsheet][ri] — six React internals (stale closures, event loop, Fiber, batching, `React.memo`…), each with a clickable demo, a quiz and broken code to fix. `React 19` `Vite`
+- [Sakurajima Mai Theme][sk] — lavender Discord theme for Vencord / BetterDiscord, built on [NotAnotherAnimeTheme][naat]; honors Reduced Motion, key text at WCAG AA. `CSS`
 
 [pf]: https://github.com/takeisan24/cv-generator
 [pf-live]: https://vutuananh.vercel.app
-[ch]: https://github.com/takeisan24/graduation-project
-[ch-live]: https://graduation-project-alpha-dun.vercel.app
 [wg]: https://github.com/takeisan24/waguri-bot
 [wg-live]: https://waguri-bot.vercel.app
+[ch]: https://github.com/takeisan24/graduation-project
+[ch-cs]: https://vutuananh.vercel.app/projects/creatorhub
+[ch-live]: https://graduation-project-alpha-dun.vercel.app
 [ci]: https://github.com/takeisan24/invitation-studio
 [ci-live]: https://cuochennho.vercel.app
 [wc]: https://github.com/takeisan24/word-chain-game
