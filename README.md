@@ -73,6 +73,8 @@ Content planning platform for creators, powered by Generative AI. Idea generatio
 
 **61 route handlers.** My graduation thesis at UTC, graded **8.8/10**.
 
+> **Demo note:** the live site's backend is paused for now, so sign-in and AI features are offline. The code and the [case study in my portfolio](https://vutuananh.vercel.app/projects/creatorhub) are the best way to see it.
+
 `Next.js App Router` `TypeScript` `Google Gemini` `Supabase` `next-intl`
 
 </td>
