@@ -6,27 +6,15 @@
 </p>
 
 <p align="center">
-  <a href="https://vutuananh.vercel.app/cv">
-    <img src="https://img.shields.io/badge/Open%20to%20work-onsite%20or%20remote-22C55E?style=for-the-badge&labelColor=1a1a1a" alt="Open to work — onsite or remote (view CV)">
-  </a>
+  <a href="https://vutuananh.vercel.app/cv"><img src="https://img.shields.io/badge/Open%20to%20work-onsite%20or%20remote-22C55E?style=for-the-badge&labelColor=1a1a1a" alt="Open to work — onsite or remote (view CV)"></a>
 </p>
 
 <p align="center">
-  <a href="https://vutuananh.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-vutuananh.vercel.app-0EA5E9?style=flat-square&labelColor=1a1a1a" alt="Portfolio">
-  </a>
-  <a href="https://www.linkedin.com/in/takeisan24/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1a1a" alt="LinkedIn">
-  </a>
-  <a href="mailto:vutanh507@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a1a" alt="Email">
-  </a>
-  <a href="https://www.facebook.com/t.ahn.official204">
-    <img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white&labelColor=1a1a1a" alt="Facebook">
-  </a>
-  <a href="https://www.instagram.com/t_ahnofficial204/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white&labelColor=1a1a1a" alt="Instagram">
-  </a>
+  <a href="https://vutuananh.vercel.app"><img src="https://img.shields.io/badge/Portfolio-vutuananh.vercel.app-0EA5E9?style=flat-square&labelColor=1a1a1a" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/takeisan24/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1a1a" alt="LinkedIn"></a>
+  <a href="mailto:vutanh507@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1a1a" alt="Email"></a>
+  <a href="https://www.facebook.com/t.ahn.official204"><img src="https://img.shields.io/badge/Facebook-0866FF?style=flat-square&logo=facebook&logoColor=white&labelColor=1a1a1a" alt="Facebook"></a>
+  <a href="https://www.instagram.com/t_ahnofficial204/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white&labelColor=1a1a1a" alt="Instagram"></a>
   <img src="https://hits.sh/github.com/takeisan24.svg?style=flat-square&label=Profile%20views&color=8B5CF6&labelColor=1a1a1a" alt="Profile views">
 </p>
 
