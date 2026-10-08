@@ -30,7 +30,7 @@
   <a href="https://www.instagram.com/t_ahnofficial204/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white&labelColor=1a1a1a" alt="Instagram">
   </a>
-  <img src="https://komarev.com/ghpvc/?username=takeisan24&style=flat-square&color=8B5CF6&label=Profile+views" alt="Profile views">
+  <img src="https://hits.sh/github.com/takeisan24.svg?style=flat-square&label=Profile%20views&color=8B5CF6&labelColor=1a1a1a" alt="Profile views">
 </p>
 
 ---
