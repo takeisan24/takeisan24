@@ -56,7 +56,11 @@ Start here — my personal site and printable CV in one. Every project below, wr
 
 A Vietnamese-localized Discord economy / RPG / community bot. Street jobs to tycoon progression, guilds, in-voice Loto & Bingo, multiplayer minigames, marriage, trading — plus an AI companion persona.
 
-**79 commands.** Live with **7 servers and 1,428 members** — hardcore balance held together by multi-layer inflation sinks.
+**72 slash commands, 572 automated tests** — every money and inventory change runs as an atomic Postgres RPC, and multi-layer sinks keep the economy from inflating. Live right now:
+
+![Servers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwaguri-bot.vercel.app%2Fapi%2Fbot%2Fstats&query=%24.servers&label=servers&style=flat-square&color=FFB7C5&labelColor=1a1a1a&cacheSeconds=1800)
+![Members](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwaguri-bot.vercel.app%2Fapi%2Fbot%2Fstats&query=%24.users&label=members&style=flat-square&color=FFB7C5&labelColor=1a1a1a&cacheSeconds=1800)
+![Players](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwaguri-bot.vercel.app%2Fapi%2Fbot%2Fstats&query=%24.players&label=players&style=flat-square&color=FFB7C5&labelColor=1a1a1a&cacheSeconds=1800)
 
 `discord.js v14` `Node.js` `Supabase / Postgres` `Gemini AI` `Next.js dashboard`
 
@@ -67,13 +71,24 @@ A Vietnamese-localized Discord economy / RPG / community bot. Street jobs to tyc
 
 Content planning platform for creators, powered by Generative AI. Idea generation, drag-and-drop publishing calendar, AI rewrite assistant, media library, credit system and VietQR payments — across 7 social platforms, fully bilingual (vi/en).
 
-**61 route handlers.** My graduation thesis at UTC.
+**61 route handlers.** My graduation thesis at UTC, graded **8.8/10**.
 
 `Next.js App Router` `TypeScript` `Google Gemini` `Supabase` `next-intl`
 
 </td>
 </tr>
 <tr>
+<td width="50%" valign="top">
+
+#### [Cuộc Hẹn Nhỏ][ci] &nbsp;·&nbsp; [live ↗][ci-live]
+
+An editorial-vintage studio for first-date invitations. Write a note, pick a palette, share a link or QR; the other person chooses time, place and drinks, then replies in one tap over Zalo or iMessage with a boarding-pass ticket. No login needed.
+
+**v1.0 shipped October 2026.** Since then: Apple / Google calendar export, a 9:16 story card and a vinyl-player soundtrack.
+
+`Next.js 16` `React 19` `Tailwind v4` `Supabase` `Web Audio API`
+
+</td>
 <td width="50%" valign="top">
 
 #### [Word Chain Game][wc]
@@ -83,11 +98,22 @@ Vietnamese *nối từ* word-chain game against a bot, in Vietnamese and English
 `Next.js` `TypeScript` `Express` `MongoDB`
 
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [React Interview Cheatsheet][ri]
+
+Six React internals that interviewers love to dig into — stale closures, the event loop, TDZ, Fiber reconciliation, batching and `React.memo`. Each one comes with a clickable demo, interview traps, a quiz and a deliberately broken exercise to fix. Written in Vietnamese.
+
+`React 19` `TypeScript` `Vite`
+
+</td>
 <td width="50%" valign="top">
 
 #### [Sakurajima Mai Theme][sk]
 
-A Vencord / BetterDiscord theme I designed and maintain.
+A calm lavender Discord theme for Vencord and BetterDiscord, built on [NotAnotherAnimeTheme][naat] by puckzxz. Themed through Discord's own design tokens so it survives client updates; honors Reduced Motion and High Contrast, with key text at WCAG AA contrast.
 
 `CSS`
 
@@ -101,16 +127,30 @@ A Vencord / BetterDiscord theme I designed and maintain.
 [ch-live]: https://graduation-project-alpha-dun.vercel.app
 [wg]: https://github.com/takeisan24/waguri-bot
 [wg-live]: https://waguri-bot.vercel.app
+[ci]: https://github.com/takeisan24/invitation-studio
+[ci-live]: https://cuochennho.vercel.app
 [wc]: https://github.com/takeisan24/word-chain-game
+[ri]: https://github.com/takeisan24/react-interview-cheatsheet
 [sk]: https://github.com/takeisan24/Sakurajima-Mai-Discord-Theme
+[naat]: https://github.com/puckzxz/NotAnotherAnimeTheme
+
+---
+
+### Experience
+
+**Frontend Developer, Web & Mobile** · Propgate — real-estate marketing platform for brokers · *Mar – Jun 2026*<br/>
+293 pull requests (265 merged) and 1,400+ commits across the web and mobile codebases in four months. Started the Expo / React Native app from its first commit; two months in, I had built 98 of its 115 screens.
+
+**Fullstack Intern** · Finful — ContentScheduleAI · *Oct 2025 – Apr 2026*<br/>
+Top contributor with 72 pull requests, 71% of the project's total. Built the OnePay + VNPay payment flow end to end and wrote all 12 Playwright test suites.
 
 ---
 
 ### About Me
 
-- **Frontend / Fullstack Developer** — shipping production Next.js applications end to end
+- **Frontend / Fullstack Developer** — shipping production Next.js and React Native apps end to end
 - Graduating **2026** in Information Technology at University of Transport and Communications, Hanoi
-- Most at home in **TypeScript** — half my public code, about two thirds once private work is counted
+- Most at home in **TypeScript** — nearly half my public code, about 60% once private work is counted
 - Deep into **Generative AI** product work: Gemini pipelines, credit metering, prompt orchestration
 - I also write **PL/pgSQL** — Supabase RPCs and Postgres functions do real work in my projects
 - For fun: **Discord bots & themes**
@@ -125,6 +165,8 @@ A Vencord / BetterDiscord theme I designed and maintain.
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 </p>
 
@@ -187,9 +229,9 @@ A Vencord / BetterDiscord theme I designed and maintain.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=takeisan24&theme=tokyo-night&hide_border=true">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=takeisan24&theme=github-light&hide_border=true">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=takeisan24&theme=tokyo-night&hide_border=true" alt="Activity Graph" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/takeisan24/takeisan24/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/takeisan24/takeisan24/output/github-snake.svg">
+    <img src="https://raw.githubusercontent.com/takeisan24/takeisan24/output/github-snake-dark.svg" alt="Contribution graph eaten by a snake" width="100%" />
   </picture>
 </p>
 
