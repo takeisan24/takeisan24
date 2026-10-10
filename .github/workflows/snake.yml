@@ -16,22 +16,18 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
       # pixel-profile takes ~4 s to render on a cold cache, longer than camo
       # waits, so the live URL showed a broken image after every cache expiry.
       # The publish below replaces the whole branch, so if today's download
       # fails, carry yesterday's card over instead of dropping it.
+      # Runs before snk: snk is a Docker action that creates dist/ as root,
+      # after which this step could no longer write into it.
       - name: Cache the pixel-profile stats card
         env:
           CARD_URL: https://pixel-profile.vercel.app/api/github-stats?username=${{ github.repository_owner }}&theme=journey&pixelate_avatar=false&include_all_commits=true
           PREVIOUS_URL: https://raw.githubusercontent.com/${{ github.repository }}/output/pixel-stats.png
         run: |
+          mkdir -p dist
           is_png() { [ "$(head -c 8 "$1" | od -An -tx1 | tr -d ' \n')" = "89504e470d0a1a0a" ]; }
           if curl -fsSL --retry 4 --retry-delay 15 --retry-all-errors --max-time 30 -o dist/pixel-stats.png "$CARD_URL" && is_png dist/pixel-stats.png; then
             echo "Fetched a fresh card."
@@ -40,6 +36,13 @@ jobs:
             curl -fsSL --max-time 30 -o dist/pixel-stats.png "$PREVIOUS_URL"
             is_png dist/pixel-stats.png
           fi
+
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
