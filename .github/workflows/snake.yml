@@ -1,7 +1,8 @@
-name: Contribution snake
+name: Profile images
 
-# Draws the contribution graph as SVGs on the `output` branch, so the README
-# no longer depends on a third-party Vercel instance staying funded.
+# Publishes the README's generated images to the `output` branch, so the
+# profile no longer depends on third-party Vercel instances staying funded
+# or answering before GitHub's image proxy gives up.
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -13,7 +14,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: Platane/snk@v3
         with:
@@ -21,6 +22,24 @@ jobs:
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+
+      # pixel-profile takes ~4 s to render on a cold cache, longer than camo
+      # waits, so the live URL showed a broken image after every cache expiry.
+      # The publish below replaces the whole branch, so if today's download
+      # fails, carry yesterday's card over instead of dropping it.
+      - name: Cache the pixel-profile stats card
+        env:
+          CARD_URL: https://pixel-profile.vercel.app/api/github-stats?username=${{ github.repository_owner }}&theme=journey&pixelate_avatar=false&include_all_commits=true
+          PREVIOUS_URL: https://raw.githubusercontent.com/${{ github.repository }}/output/pixel-stats.png
+        run: |
+          is_png() { [ "$(head -c 8 "$1" | od -An -tx1 | tr -d ' \n')" = "89504e470d0a1a0a" ]; }
+          if curl -fsSL --retry 4 --retry-delay 15 --retry-all-errors --max-time 30 -o dist/pixel-stats.png "$CARD_URL" && is_png dist/pixel-stats.png; then
+            echo "Fetched a fresh card."
+          else
+            echo "::warning::pixel-profile unavailable, keeping yesterday's card."
+            curl -fsSL --max-time 30 -o dist/pixel-stats.png "$PREVIOUS_URL"
+            is_png dist/pixel-stats.png
+          fi
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
