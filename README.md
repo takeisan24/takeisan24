@@ -167,7 +167,7 @@ Top contributor with 72 pull requests, 71% of the project's total. Built the One
 ### GitHub Stats
 
 <p align="center">
-  <img src="https://pixel-profile.vercel.app/api/github-stats?username=takeisan24&theme=journey&pixelate_avatar=false&include_all_commits=true" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/takeisan24/takeisan24/output/pixel-stats.png" alt="GitHub Stats" />
 </p>
 
 <p align="center">
